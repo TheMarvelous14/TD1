@@ -38,7 +38,7 @@ Après des recherches rapide on peut savoir que le pingouin de linux se nomme Tu
 
 1. Même si on trouve rapidement l'image de tux assez rapidement, on se rend compte que le modifier n'est pas si simple. Ce qui nous en empêche, doit être le fait qu'on ne possède pas les d'écriture sur l'image
 
-2. Pour contourner cette situation il faut réussir à démarrer l'image en tant que root et non en tant qu'user.
+2. Pour contourner cette situation il faut réussir à démarrer l'image linux  en tant que root et non en tant qu'user.
 
 3. 
 
