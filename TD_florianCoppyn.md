@@ -14,7 +14,7 @@ voici les différentes étapes réaliser pour patch le binaire:
 
 ![step 5](/capture_td/step5.png)
 
-###### Réponse aux question:
+###### Réponses aux questions:
 
 1. La principale différence entre les deux architectures tient dans les choix de conception de leur jeu d’instruction : 
 l'architecture x86 est une architecture CISC (Complex Instruction Set Computer), tandis que l’ARM est une architecture RISC (Reduced ISC).
@@ -31,6 +31,22 @@ Pour cela il suffit de rajouter du bruit dans le code, c'est à dire de rajouter
 #### TD2 Binwalk
 
 On utilise binwalk et en cherchant dans tous les fichier utiliser par l'image on cherche l'image du pingouin de linux.
-Après des recherches rapide on peut savoir que le pingouin de linux se nomme Tux. On fait donc une recherche sur **"tux"** et on trouve:
+Après des recherches rapide on peut savoir que le pingouin de linux se nomme Tux. On fait donc une recherche sur **"tux"** et on trouve sa location dans l'image assez rapidement:
 ![tux found](/capture_td/binwalk.png)
 
+###### Réponse aux questions
+
+1. Même si on trouve rapidement l'image de tux assez rapidement, on se rend compte que le modifier n'est pas si simple. Ce qui nous en empêche, doit être le fait qu'on ne possède pas les d'écriture sur l'image
+
+2. Pour contourner cette situation il faut réussir à démarrer l'image en tant que root et non en tant qu'user.
+
+3. 
+
+
+#### TD3 Speedrun
+
+
+
+
+#### TD4 Toolbox
+ 
